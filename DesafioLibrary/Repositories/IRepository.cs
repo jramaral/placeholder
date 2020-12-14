@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Desafio.Model;
+using DesafioLibary.Model;
 
-namespace Desafio.Repostitory
+namespace DesafioLibrary.Repositories
 {
     public interface IRepository
     {

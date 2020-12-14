@@ -1,4 +1,4 @@
-﻿namespace Desafio.Model
+﻿namespace DesafioLibary.Model
 {
     public class Company
     {

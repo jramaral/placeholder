@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Desafio.Data;
-using Desafio.Model;
+using DesafioLibary.Model;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace Desafio.Repostitory
+namespace DesafioLibrary.Repositories
 {
     public class Repository: IRepository
     {

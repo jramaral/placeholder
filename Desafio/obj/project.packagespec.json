@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "D:\\NetCore\\Desafio\\DesafioLibrary\\DesafioLibrary.csproj": {
+            "projectPath": "D:\\NetCore\\Desafio\\DesafioLibrary\\DesafioLibrary.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -46,6 +50,10 @@
         "Microsoft.OpenApi": {
           "target": "Package",
           "version": "[1.2.3, )"
+        },
+        "Pomelo.EntityFrameworkCore.MySql": {
+          "target": "Package",
+          "version": "[3.2.4, )"
         },
         "Swashbuckle.AspNetCore": {
           "target": "Package",

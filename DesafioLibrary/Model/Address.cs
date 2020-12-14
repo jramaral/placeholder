@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace Desafio.Model
+namespace DesafioLibary.Model
 {
     public class Address
     {

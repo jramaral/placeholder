@@ -1,9 +1,8 @@
-﻿using Desafio.Model;
+﻿using DesafioLibary.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace Desafio.Data
+namespace DesafioLibrary.Repositories
 {
-   
    
     public class DataContext : DbContext
     {

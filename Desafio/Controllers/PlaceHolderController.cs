@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Desafio.Model;
-using Desafio.Repostitory;
+using DesafioLibary.Model;
+using DesafioLibrary.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +12,7 @@ namespace Desafio.Controllers
     [Route("v1/api/[controller]")]
     public class PlaceHolderController : ControllerBase
     {
-        private readonly IRepository _repo;
+        private readonly  IRepository _repo;
         public PlaceHolderController(IRepository repo)
         {
             _repo = repo;

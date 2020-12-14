@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1eKO6iS2KNw/Yn9dhNHIY/QgaJr5S83i+RriJtTrjqpcFNNa5STdsZ4Yh2dljN4SQ3FKGHAbA5fGZUMDc9k76A==",
+  "dgSpecHash": "m+cBmynmEeHvNxOr+geVOvkWhRsXJ5Htsoo5AHMjdBC5XEHyML+LLXhL763btnkZSA0A24fUrTZWRCivJaYPIA==",
   "success": true,
   "projectFilePath": "D:\\NetCore\\Desafio\\Desafio\\Desafio.csproj",
   "expectedPackageFiles": [
@@ -32,8 +32,11 @@
     "C:\\Users\\jose\\.nuget\\packages\\microsoft.extensions.options\\3.1.10\\microsoft.extensions.options.3.1.10.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.10\\microsoft.extensions.primitives.3.1.10.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jose\\.nuget\\packages\\mysqlconnector\\0.69.9\\mysqlconnector.0.69.9.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\jose\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.4\\pomelo.entityframeworkcore.mysql.3.2.4.nupkg.sha512",
+    "C:\\Users\\jose\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\jose\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",

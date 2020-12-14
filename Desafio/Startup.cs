@@ -1,18 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Desafio.Data;
-using Desafio.Repostitory;
+using DesafioLibrary.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 namespace Desafio
 {
@@ -29,7 +21,7 @@ namespace Desafio
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(
-                x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))
+                x => x.UseMySql(Configuration.GetConnectionString("DefaultConnection"))
             );
             services.AddControllers().AddNewtonsoftJson(opt=> opt.SerializerSettings.ReferenceLoopHandling =ReferenceLoopHandling.Ignore);
             services.AddScoped<IRepository, Repository>();

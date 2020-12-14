@@ -7,19 +7,41 @@
     <e p="C:\Users\jose\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
     <e p="D:\NetCore\Desafio" t="IncludeFlat">
       <e p="Desafio" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="PlaceHolderController.cs" t="Include" />
         </e>
-        <e p="Data" t="Include">
-          <e p="DataContext.cs" t="Include" />
-        </e>
         <e p="Desafio.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Desafio.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Desafio.sln" t="IncludeFlat" />
+      <e p="DesafioLibrary" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include" />
+        <e p="Desafio" t="Include">
+          <e p="obj" t="Include">
+            <e p="Desafio.csproj.EntityFrameworkCore.targets" t="Include" />
+          </e>
+        </e>
+        <e p="DesafioLibrary.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20201212002239_init.cs" t="Include" />
-          <e p="20201212002239_init.Designer.cs" t="Include" />
+          <e p="20201214134912_init.cs" t="Include" />
+          <e p="20201214134912_init.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
@@ -30,22 +52,16 @@
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="Desafio.AssemblyInfo.cs" t="Include" />
+              <e p="DesafioLibrary.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="PlaceHolder.db" t="Include" />
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="launchSettings.json" t="Include" />
-        </e>
-        <e p="Repostitory" t="Include">
+        <e p="Repositories" t="Include">
+          <e p="DataContext.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
           <e p="Repository.cs" t="Include" />
         </e>
-        <e p="Startup.cs" t="Include" />
       </e>
-      <e p="Desafio.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio", "Desafio\Desafio.csproj", "{98E81C06-F225-4809-B31C-0061FABC125B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioLibrary", "DesafioLibrary\DesafioLibrary.csproj", "{9B22487A-269A-479E-851C-3188E09AA1D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{98E81C06-F225-4809-B31C-0061FABC125B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98E81C06-F225-4809-B31C-0061FABC125B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98E81C06-F225-4809-B31C-0061FABC125B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B22487A-269A-479E-851C-3188E09AA1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B22487A-269A-479E-851C-3188E09AA1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B22487A-269A-479E-851C-3188E09AA1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B22487A-269A-479E-851C-3188E09AA1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
